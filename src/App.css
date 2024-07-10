@@ -1,10 +1,26 @@
 .App {
+  font-family:Arial, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: black;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+section {
+  padding: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
